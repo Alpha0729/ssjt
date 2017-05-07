@@ -1,0 +1,30 @@
+.index-box .index-foot {
+  overflow: hidden;
+  margin-top: 50px;
+  padding: 16px 29px 28px 31px;
+  border-top: 2px solid #d5d5d5;
+}
+.index-box .index-foot .friend-link {
+  list-style: disc inside;
+  color: #e9434c;
+}
+.index-box .index-foot .friend-link p {
+  margin-right: 15px;
+}
+.index-box .index-foot ul p {
+  display: inline;
+  font-size: 11px;
+  color: #9e9e9e;
+  text-align: left;
+  line-height: 19px;
+}
+.index-box .index-foot ul p span {
+  margin: 0 7px;
+}
+.index-box .index-foot ul .share {
+  text-align: right;
+  margin-top: 11px;
+}
+.index-box .index-foot ul .share img {
+  margin-left: 6px;
+}

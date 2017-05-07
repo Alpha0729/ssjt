@@ -1,0 +1,42 @@
+.index-box .report-page {
+  display: table;
+  margin: 60px auto 120px;
+}
+.index-box .report-page .prepage {
+  width: 8px;
+  height: 12px;
+  margin: 12px 23px;
+  background: url("../images/relative_13.png") no-repeat;
+}
+.index-box .report-page ul li .number {
+  width: 35px;
+  height: 35px;
+  display: block;
+  font-size: 14px;
+  color: #b9b9b9;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: "0";
+}
+.index-box .report-page ul li .number:hover {
+  background: #d8343d;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: "0";
+}
+.index-box .report-page ul li .active {
+  background: #d8343d;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: "0";
+}
+.index-box .report-page .nextpage {
+  width: 8px;
+  height: 12px;
+  margin: 12px 23px;
+  background: url("../images/relative_15.png") no-repeat;
+}

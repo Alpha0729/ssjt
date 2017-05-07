@@ -1,0 +1,10 @@
+extends layout.jade
+
+block script
+	script(type="text/javascript" src="static/js/jquery-1.11.3.min.js")
+	script(type="text/javascript" src="static/js/show_con.js")
+
+block con
+	include model/pinpai_form.jade
+	include model/zhaoshang
+	include model/zs_phone

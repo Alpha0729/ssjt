@@ -1,0 +1,29 @@
+.index-box .investor-mail .mail-img {
+  width: 100%;
+}
+.index-box .investor-mail .mail-img img {
+  width: 100%;
+}
+.index-box .investor-mail .mail-p {
+  margin: 18px 0;
+  font-size: 14px;
+  color: #919191;
+  text-align: left;
+  line-height: 26px;
+}
+.index-box .investor-mail .mail-contact {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #b9b8b8;
+  text-align: left;
+  line-height: 34px;
+}
+.index-box .investor-mail .mail-contact img {
+  vertical-align: middle;
+}
+.index-box .investor-mail .mail-contact .title {
+  font-size: 18px;
+  color: #666666;
+  text-align: left;
+  line-height: 34px;
+}

@@ -1,0 +1,45 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		meta(http-equiv="X-UA-Compatible",content="IE=edge")
+		meta(name="viewport" ,content="width=device-width, initial-scale=1,user-scalable=no")
+		title 首商集团
+		link(type="text/css" href="static/css/main.css" rel="stylesheet")
+		script(type="text/javascript"  src="static/js/jquery-1.12.3.min.js")
+		script(type="text/javascript" src="static/js/index.js")
+		block css
+
+		block script
+
+	body
+		- var url="static/images/";
+		.header
+			block head
+		include model/index_top_nav
+		.content
+			block con
+		.footer
+			block foot
+		include model/index_foot
+
+		script(type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8")
+		style(type="text/css").
+			.jiathis_style .jtico {
+				display: inline;
+			}
+
+			.jiathis_style .jtico_qzone, .jiathis_style .jtico_tsina, .jiathis_style .jtico_weixin {
+				background: none;
+				background-position: 0 0;
+			}
+
+			.jiathis_style .separator, .jiathis_style .jiathis_separator {
+				float: none;
+			}
+
+			.jiathis_style .jtico {
+				display: inline !important;
+				padding-left: 0 !important;
+			}
+

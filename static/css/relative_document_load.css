@@ -1,0 +1,41 @@
+.index-box .relative-document-load {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 22px 20px 21px 30px;
+  overflow: hidden;
+}
+.index-box .relative-document-load .date {
+  font-size: 14px;
+  color: #ababab;
+  text-align: left;
+  line-height: 32px;
+  margin-right: 58px ;
+}
+.index-box .relative-document-load .content {
+  font-size: 16px;
+  color: #666666;
+  text-align: left;
+  line-height: 32px;
+}
+.index-box .relative-document-load .load {
+  width: 126px;
+  height: 32px;
+  background: #919191;
+}
+.index-box .relative-document-load .load a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+}
+.index-box .relative-document-load .load a:hover {
+  background: #d8343d;
+}
+.index-box .relative-document-load .load span {
+  line-height: 32px;
+  margin-left: 10px;
+}
+.index-box .relative-document-load .load span img {
+  vertical-align: middle;
+}

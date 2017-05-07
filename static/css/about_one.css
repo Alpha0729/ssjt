@@ -1,0 +1,106 @@
+h1.title {
+  font-size: 55px;
+  font-weight: bold;
+  color: #909090;
+  margin: 55px 0;
+}
+.h_text {
+  margin-top: 30px;
+}
+.h_text h3 {
+  font-size: 18px;
+  font-weight: bold;
+  background: url('../img/h_icon01.png') no-repeat left center;
+  padding-left: 15px;
+  margin-bottom: 30px ;
+}
+.h_text p {
+  font-size: 14px;
+  margin-bottom: 34px;
+}
+.h_text p span {
+  color: #e19454;
+}
+.bossCon {
+  width: 1180px;
+}
+.bossCon_left {
+  width: 410px;
+}
+.bossCon_Right {
+  width: 706px;
+  margin-left: 60px;
+}
+.bossCon_Right p {
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+.team {
+  width: 100%;
+}
+.teamList {
+  width: 576px;
+  float: left;
+  margin-bottom: 26px;
+}
+.listLeft {
+  margin-right: 28px;
+}
+.teamList .teamName {
+  padding: 20px 26px;
+  background: #afafaf;
+}
+.teamList:hover .teamName {
+  background: #e19454;
+  color: #fff;
+  cursor: pointer;
+}
+.teamList:hover .teamJs {
+  background: #f3f3f3;
+}
+.teamList .teamName h3 {
+  font-size: 28px;
+  color: #fff;
+}
+.teamList .teamName h3 span {
+  font-size: 18px;
+  color: #fff;
+}
+.teamList .teamJs {
+  padding: 20px 24px;
+  background: #fafafa;
+}
+.teamList .teamJs .teamimg {
+  float: left;
+  padding-right: 10px;
+}
+.teamList .teamJs p {
+  line-height: 24px;
+}
+.teamList .teamJs img {
+  float: left;
+  padding-right: 20px;
+}
+.jiagoutu {
+  margin-top: 60px;
+}
+.stores h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  background: url('../img/h_icon01.png') no-repeat left center;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.storeimg {
+  float: left;
+  margin: 0 10px 30px 0;
+  width: 312px;
+  text-align: center;
+}
+.storeimg p a {
+  font-size: 14px;
+  color: #989898;
+  margin-top: 14px;
+}

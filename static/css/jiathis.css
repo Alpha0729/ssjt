@@ -1,0 +1,17 @@
+.jiathis_style .jtico {
+  display: inline;
+}
+.jiathis_style .jtico_qzone,
+.jiathis_style .jtico_tsina,
+.jiathis_style .jtico_weixin {
+  background: none;
+  background-position: 0 0;
+}
+.jiathis_style .separator,
+.jiathis_style .jiathis_separator {
+  float: none;
+}
+.jiathis_style .jtico {
+  display: inline !important;
+  padding-left: 0 !important;
+}

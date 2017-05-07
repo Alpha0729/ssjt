@@ -1,0 +1,15 @@
+extends layout.jade
+
+block css
+   link(rel="styleSheet",type="text/css",href="static/css/about_one.css")
+
+block head
+
+block con
+   .wrapper
+      h1.title 集团简介
+      - var bbb="static/img/h_banner01.jpg"
+      include model/header_img
+      include model/about_ot
+
+block foot

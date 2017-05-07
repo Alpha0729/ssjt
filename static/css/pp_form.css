@@ -1,0 +1,28 @@
+.pinlei_select1 .bai_qu,
+.pinlei_select2 .bai_address {
+  float: left;
+  width: 317px;
+  border-right: 1px solid #dadada;
+}
+.pinlei_select1 #b_qu,
+.pinlei_select2 #b_address {
+  position: absolute;
+  top: 35px;
+  left: -1px;
+  width: 356px;
+  max-height: 200px;
+  border: 1px solid #dadada;
+  text-indent: 1em;
+  background: #fff;
+  z-index: 99;
+  overflow: auto;
+  display: none;
+}
+.pinlei_select11,
+.pinlei_select22 {
+  border: 1px solid #1fa0ca;
+}
+.b_liColor {
+  background: #ff366a;
+  color: #fff;
+}

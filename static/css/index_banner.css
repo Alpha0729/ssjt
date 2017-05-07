@@ -1,0 +1,65 @@
+.index-box {
+  position: relative;
+}
+.index-box .banner-abs {
+  width: 100%;
+  position: relative;
+}
+.index-box .banner-abs .banner-list {
+  width: 100%;
+  position: relative;
+}
+.index-box .banner-abs .banner-list .banner-img {
+  width: 100%;
+}
+.index-box .banner-abs .banner-list .banner-img .img {
+  width: 100%;
+}
+.index-box .banner-abs .banner-list .banner-word {
+  position: absolute;
+  top: 180px;
+  left: 30px;
+}
+.index-box .banner-abs .banner-list .banner-word .title-up p {
+  font-size: 36px;
+  color: #fff;
+  text-align: left;
+  line-height: 42px;
+}
+.index-box .banner-abs .banner-list .banner-word .title-up p b {
+  font-weight: bolder;
+}
+.index-box .banner-abs .banner-list .banner-word .title-hr hr {
+  width: 63px;
+  height: 1px;
+  color: #ec9a9e;
+  background: #ec9a9e;
+  border: none;
+  margin: 21px 0 17px 0 ;
+}
+.index-box .banner-abs .banner-list .banner-word .content {
+  font-size: 11px;
+  color: #fff;
+  text-align: left;
+  line-height: 19px;
+}
+.index-box .circle-box {
+  position: absolute;
+  left: 29px;
+  bottom: 40px;
+  overflow: hidden;
+}
+.index-box .circle-box .circle {
+  width: 10px;
+  height: 10px;
+  margin-right: 8px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #ec9a9e;
+  cursor: pointer;
+}
+.index-box .circle-box .width-circle {
+  width: 20px;
+  background: #fff;
+}

@@ -1,0 +1,14 @@
+extends layout2
+
+block content
+
+	include model/index_top_nav
+	- var reporttitle="股票行情"
+	include model/relative_report_title
+
+	include model/relative_shares
+
+	include model/index_foot
+
+block script
+	script(type="text/javascript" src="static/js/index.js")

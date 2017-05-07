@@ -1,0 +1,29 @@
+extends layout2
+
+block content
+
+	include model/index_top_nav
+	-var reporttitle="临时报告"
+	include model/relative_report_title
+	//include model/relative_report_subtitle
+	- var relativeimg=[url+"relative_03.png",url+"relative_06.png"];
+	-var relativecon={title:"北京首商集团股份有限公司2014 年第一季度报告",content:"首商集团将进一步加强企业内部控制管理，积极发挥上市公司的融资功能，实现多业态，多品牌，立体化协同发展的新格局。我们愿与更多的新老朋友携手共进，合作共赢，迎接百货业更加美好的明天。"};
+	include model/relative_report_content
+	- var relativeimg=[url+"relative_10.png",url+"relative_06.png"];
+	-var relativecon={title:"北京首商集团股份有限公司公司章程（2014修订）",content:"百货零售连锁经营为主的大型商业企业集团，2011年7月22日正式揭牌，股票代码600723，股票简称“首商股份”。公司总资产65.8亿元，总经营面积约100万平方米，年销售额超过100亿元，市值近100亿元。"};
+	include model/relative_report_content
+	- var relativeimg=[url+"relative_03.png",url+"relative_06.png"];
+	-var relativecon={title:"北京首商集团股份有限公司2014 年第一季度报告",content:"首商集团将进一步加强企业内部控制管理，积极发挥上市公司的融资功能，实现多业态，多品牌，立体化协同发展的新格局。我们愿与更多的新老朋友携手共进，合作共赢，迎接百货业更加美好的明天。"};
+	include model/relative_report_content
+	- var relativeimg=[url+"relative_10.png",url+"relative_06.png"];
+	-var relativecon={title:"北京首商集团股份有限公司公司章程（2014修订）",content:"百货零售连锁经营为主的大型商业企业集团，2011年7月22日正式揭牌，股票代码600723，股票简称“首商股份”。公司总资产65.8亿元，总经营面积约100万平方米，年销售额超过100亿元，市值近100亿元。"};
+	include model/relative_report_content
+	- var relativeimg=[url+"relative_03.png",url+"relative_06.png"];
+	-var relativecon={title:"北京首商集团股份有限公司2014 年第一季度报告",content:"首商集团将进一步加强企业内部控制管理，积极发挥上市公司的融资功能，实现多业态，多品牌，立体化协同发展的新格局。我们愿与更多的新老朋友携手共进，合作共赢，迎接百货业更加美好的明天。"};
+	include model/relative_report_content
+	include model/relative_report_page
+
+	include model/index_foot
+
+block script
+	script(type="text/javascript" src="static/js/index.js")

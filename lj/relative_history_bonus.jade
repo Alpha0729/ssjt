@@ -1,0 +1,22 @@
+extends layout2
+
+block content
+
+	include model/index_top_nav
+	- var reporttitle="历年分红"
+	include model/relative_report_title
+
+	-var date="2015";
+	-var bonus=[{title:"净利润",data:"104863"},{title:"可分配利润",data:"97886"},{title:"派现",data:"88888"},{title:"派现率",data:"79.653%"}];
+	include model/relative_history_bonus
+	-var date="2014";
+	-var bonus=[{title:"净利润",data:"104863"},{title:"可分配利润",data:"97886"},{title:"派现",data:"88888"},{title:"派现率",data:"79.653%"}];
+	include model/relative_history_bonus
+	-var date="2013";
+	-var bonus=[{title:"净利润",data:"104863"},{title:"可分配利润",data:"97886"},{title:"派现",data:"88888"},{title:"派现率",data:"79.653%"}];
+	include model/relative_history_bonus
+	include model/relative_report_page
+	include model/index_foot
+
+block script
+	script(type="text/javascript" src="static/js/index.js")

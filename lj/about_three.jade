@@ -1,0 +1,12 @@
+extends layout.jade
+
+block css
+	link(rel="styleSheet",type="text/css",href="static/css/about_one.css")
+	link(rel="styleSheet",type="text/css",href="static/css/about_threeBottom.css")
+
+block con
+	.wrapper
+		h1.title 企业文化
+		- var bbb="static/img/h_banner03.jpg"
+		include model/header_img
+		include model/about_threeBottom.jade

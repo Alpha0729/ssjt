@@ -1,0 +1,30 @@
+.index-box .relative-history-bonus {
+  overflow: hidden;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 24px 28px  52px;
+}
+.index-box .relative-history-bonus .date {
+  font-size: 104px;
+  color: #cccccc;
+  text-align: left;
+  line-height: 104px;
+}
+.index-box .relative-history-bonus .content {
+  width: 221px;
+}
+.index-box .relative-history-bonus .content .title {
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+  line-height: 15px;
+  margin-bottom: 23px ;
+  margin-top: 10px;
+}
+.index-box .relative-history-bonus .content .data {
+  font-size: 42px;
+  color: #ccc;
+  text-align: center;
+  line-height: 42px;
+  border-right: 1px solid #ccc;
+}

@@ -1,0 +1,24 @@
+extends layout2
+
+block content
+
+	include model/index_top_nav
+	- var reporttitle="公司治理"
+	include model/relative_report_title
+	- var companyimg=url+"relative_company_03.png";
+	- var companyim=url+"relative_06.png";
+	- var companycon = {title:"董事会议事规则",content:"第一章 总则 \r 第一条  为进一步规范北京首商集团股份有限公司（以下简称“公司”）董事会的议事方式和决策程序，促使董事和董事会有效地履行其职责，提高董事会规范运作和科学决策水平，根据《中华人民共和国公司法》（以下简称“《公司法》”）、《中华人民共和国证券法》、《上市公司治理准则》（以下简称“《治理准则》”）、《上海证券交易所股票上市规则》（以下简称“《上市规则》”）及《北京首商集团股份有限公司章程》。"};
+	include model/relative_company_content
+	- var companyimg=url+"relative_company_06.png";
+	- var companyim=url+"relative_06.png";
+	- var companycon = {title:"公司章程",content:"第一章 总则 \r 第一条  为进一步规范北京首商集团股份有限公司（以下简称“公司”）董事会的议事方式和决策程序，促使董事和董事会有效地履行其职责，提高董事会规范运作和科学决策水平，根据《中华人民共和国公司法》（以下简称“《公司法》”）、《中华人民共和国证券法》、《上市公司治理准则》（以下简称“《治理准则》”）、《上海证券交易所股票上市规则》（以下简称“《上市规则》”）及《北京首商集团股份有限公司章程》（以下简称“《公司章程》”）和其他有关法规规定，特制定本规则。"};
+	include model/relative_company_content
+	- var companyimg=url+"relative_company_08.png";
+	- var companyim=url+"relative_06.png";
+	- var companycon = {title:"股东大会议事规则",content:"第一章 总则 \r 第一条  为进一步规范北京首商集团股份有限公司（以下简称“公司”）董事会的议事方式和决策程序，促使董事和董事会有效地履行其职责，提高董事会规范运作和科学决策水平，根据《中华人民共和国公司法》（以下简称“《公司法》”）、《中华人民共和国证券法》、《上市公司治理准则》（以下简称“《治理准则》”）、《上海证券交易。"};
+	include model/relative_company_content
+
+	include model/index_foot
+
+block script
+	script(type="text/javascript" src="static/js/index.js")

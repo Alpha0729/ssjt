@@ -1,0 +1,18 @@
+.contact {
+  width: 1180px;
+  margin: 0 auto;
+}
+#allmap {
+  width: 1180px;
+  height: 500px;
+  position: relative;
+}
+.map_phone {
+  font-size: 14px;
+  color: #333;
+  line-height: 30px;
+  margin-top: 35px;
+}
+.anchorBL {
+  display: none;
+}

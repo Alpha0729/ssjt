@@ -1,0 +1,14 @@
+.index-box .report-subtitle p {
+  font-size: 14px;
+  color: #808080;
+  line-height: 14px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.index-box .report-subtitle p .red {
+  color: #da2020;
+}
+.index-box .report-subtitle p span {
+  cursor: pointer;
+  margin: auto 12px;
+}

@@ -1,0 +1,128 @@
+.index-box .index-news {
+  margin: 50px 30px 50px 3px;
+  overflow: hidden;
+}
+.index-box .index-news .news-list {
+  padding: 0 22px;
+  border-left: 1px solid #bcbcbc;
+}
+.index-box .index-news .news-list .news-list-img {
+  text-align: center;
+}
+.index-box .index-news .news-list .news-list-word {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #303030;
+  text-align: center;
+  line-height: 18px;
+}
+.index-box .index-news .about {
+  padding-right: 17px;
+  border-left: 1px solid #bcbcbc;
+}
+.index-box .index-news .about .img,
+.index-box .index-news .about p {
+  float: left;
+}
+.index-box .index-news .about .img {
+  margin: 0 15px;
+}
+.index-box .index-news .about p {
+  width: 458px;
+  font-size: 12px;
+  color: #777;
+  text-align: left;
+  line-height: 20px;
+}
+.index-box .index-news .center {
+  padding: 0 17px 0 0;
+  border-left: 1px solid #bcbcbc;
+}
+.index-box .index-news .center .calendar {
+  width: 48px;
+  margin: 0 20px;
+}
+.index-box .index-news .center .calendar .month {
+  width: 48px;
+  height: 16px;
+  text-transform: uppercase;
+  background: #e9434c;
+  font-size: 11px;
+  color: #fff;
+  text-align: center;
+  line-height: 16px;
+}
+.index-box .index-news .center .calendar .day {
+  width: 48px;
+  height: 36px;
+  background: #e3e3e3;
+  font-size: 30px;
+  color: #5e5e5e;
+  text-align: center;
+  line-height: 36px;
+}
+.index-box .index-news .center .artical {
+  width: 565px;
+}
+.index-box .index-news .center .artical .title {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #474747;
+  text-align: left;
+  line-height: 12px;
+}
+.index-box .index-news .center .artical .paragraph {
+  font-size: 12px;
+  color: #777;
+  text-align: left;
+  line-height: 18px;
+}
+.index-box .index-news .relation {
+  padding-left: 17px;
+  height: 38px;
+  padding-top: 17px;
+  border-left: 1px solid #bcbcbc;
+  font-size: 12px;
+  color: #777;
+  text-align: left;
+  line-height: 18px;
+}
+.index-box .index-news .relation p {
+  display: inline;
+  margin-right: 23px;
+  font-size: 12px;
+  color: #474747;
+  text-align: left;
+  line-height: 18px;
+}
+.index-box .index-news .relation .list {
+  margin-right: 13px;
+}
+.index-box .index-news .relation .green {
+  color: #5c9a46;
+}
+.index-box .index-news .relation .investment {
+  width: 92px;
+  height: 26px;
+  display: inline-block;
+  background: #e9434c;
+  margin-top: -4px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 26px;
+}
+.index-box .index-news .contact {
+  width: 186px;
+  padding-right: 31px;
+  height: 26px;
+  background: #e9434c;
+  border-bottom: 1px solid #ed6970;
+  font-size: 12px;
+  color: #fff;
+  text-align: left;
+  line-height: 26px;
+}
+.index-box .index-news .contact img {
+  margin: 6px 15px auto 11px;
+}
